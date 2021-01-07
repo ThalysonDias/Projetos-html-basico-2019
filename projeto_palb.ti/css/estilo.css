@@ -1,0 +1,115 @@
+body{
+    background: url(../imagens/teclado.jpeg) center center no-repeat fixed;
+    background-size: 100%;
+    
+}
+.vermelhinho{
+    color: #f5091c
+}
+
+.laranjinha{
+    color: #ff6f06
+}
+
+
+.subtitulo{
+   border-bottom-style: inherit;
+    font-family: "Arial";
+    border-color: #0808f2
+}
+
+h2{
+    font-size: 20px
+}
+
+h4{ 
+    font-family: "Arial";
+}
+
+#container{
+    width: 1000px;
+    background-color: #94e5ed;
+    border: 1px red dotted;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px
+    font-family: "Arial";
+    
+}
+
+#topo{
+    background: #073d5a;
+    color: #ed1119;
+    font-size: 20px;
+    padding: 30px;
+    font-family: "Franklin Gothic Demi";
+    text-align: center;
+    border-bottom: 1px solid 
+    
+}
+
+article{
+    min-height: 20px;
+    height: 200px;
+    font-family: "Arial";
+}
+#local {
+    background: #94e5ed;
+    min-height: 200px;
+    height: 650px;
+    padding: 20px 30px;
+    font-family: "Arial";
+}
+
+#contato {
+    background: #94e5ed;
+    min-height: 400px;
+    height: 400px;
+    padding: 20px 30px;
+    font-family: "Arial";
+}
+
+
+
+
+#campo_nome {
+    height: 20px;
+    width: 506px;
+}
+
+#campo_idade {
+    height: 20px;
+    width: 100px;
+}
+
+#campo_sexo {
+    height: 26px;
+    width: 120px;
+}
+
+#campo_curso {
+     
+    height: 25px;
+    width: 506px;
+
+}
+
+#campo_email {
+    height: 18px;
+    width: 500px;
+}
+
+#campo_rep_email {
+      height: 18px;
+    width: 428px;
+}
+
+#campo_senha {
+      height: 18px;
+    width: 510px;
+}
+
+#campo_rep_senha {
+      height: 18px;
+    width: 510px;
+}

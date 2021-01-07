@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+    <title>Cadastro</title>
+   <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/codigo.js"></script>
+    </head>
+    <body>
+        
+      
+           <div id="container">
+            
+             <div id="topo">
+            <h1 class="laranjinha"><img src="../imagens/Trabalho.png" width="200" heigth="200"> CADASTRO</h1>
+            </div>   
+        
+        <div id="formulario">
+            
+        <form name="form1" onsubmit="preventDefault();">
+            
+    
+            <h1>CADASTRA-SE</h1>
+   <p><label for="campo_nome">Nome*:</label><input type="text" required name="campo_nome "id='campo_nome'></p>
+            <p><label for="campo_idade">Idade*:</label><input required type="number" id='campo_idade'>
+            <label for="campo_sexo">Sexo*:</label> 
+                <select required id="campo_sexo">
+                <option></option>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                </select>
+            <p><label for="campo_curso">Curso*:</label> 
+                <select required id="campo_curso">
+                <option></option>
+                <option value="Sistemas de Informação">Sistemas de informação</option>
+                <option value="Ciências da Computação">Ciências da Computação</option>                            
+                <option value="Tecnologia e Análise em Desenvolvimento de Software">Tecnologia e Análise em Desenvolvimento de Software</option>                            
+                <option value="Tecnologia em Banco de Dados">Tecnologia em Banco de Dados</option>                            
+                <option value="Tecnologia em Segurança">Tecnologia em Segurança</option>                            
+                <option value="Tecnologia em Redes de Computadores">Tecnologia em Redes de Computadores</option>                            
+                </select>
+            <p><label for="campo_email">E-mail*:</label><input type="email" required id='campo_email'></p>
+            <p><label for="campo_rep_email">Confirmar E-mail*:</label><input type="email" required id='campo_rep_email'></p>
+            
+<p><label for="campo_senha">Senha:</label><input type="password" required id='campo_senha'></p>
+            
+<p><label for="campo_rep_senha">Senha:</label><input type="password" required id='campo_rep_senha'></p>
+          
+            
+        <input type="reset" value="Apagar"/> 
+            
+             <input value="Enviar" type="button" onclick="validar()" >
+          
+            </form>
+        </div>
+    
+        
+        <div id="parabens"></div>
+            
+        
+        </div>
+        
+    
+     <div>
+        <a class="button" href="../index.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">HOME</a></div>
+            
+            <div>
+        <a class="button" href="sobre.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">SOBRE</a></div>
+        
+            <div>
+        <a class="button" href="empresa.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">A EMPRESA</a></div>
+            
+            <div>
+        <a class="button" href="quemsomos.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">QUEM SOMOS</a></div>
+
+            
+              
+         <div>
+        <a class="button" href="contato.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">CONTATO</a></div>
+              
+                       <div>
+        <a class="button" href="cadastro.html" style="float: right; border:1px solid; padding: 11px 21px; vertical-align: middle; background:#2D888F; color:white;border-radius:6px; font-size: 20px; font-family:helvetica, serif;text-decoration:none;">CADASTRO</a></div>
+    </body>
+</html>
