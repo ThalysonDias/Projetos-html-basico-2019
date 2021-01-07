@@ -1,0 +1,135 @@
+
+html, body{
+     margin: 0;
+     font-size: 18px;
+     font-family:  "Verdana";
+}
+
+header{
+    padding: 15px;
+}
+nav{
+    background: #4e5cac;
+	
+}
+nav ul{
+     margin: 0;
+     padding: 0;
+}
+nav li{
+     list-style-type: none;
+     display: inline-block;
+     padding: 15px 20px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+section{
+    
+}
+footer{
+   background: #fff;
+   text-align: center;
+  
+}
+.container{
+
+/*/border: 1px black dotted;/*/
+margin: 0 auto;
+width: 940px;
+
+}
+article{
+    min-height: 100px;
+}
+
+#contato{
+    background: #fff;
+
+}
+h1{
+    font-size: 2.1em;
+    
+}
+.bloco{
+    /*/border: 1px dotted blue;/*/
+    float: left;
+	width: 33%;
+	
+
+    
+}
+.bloco p{
+	height: auto;
+	width: auto;
+}
+.icone{
+    text-align: center;
+    height: 30%;
+}
+.icone_img{
+    width: 40%
+   
+}
+.titulo_icone{
+    text-align: center;
+    font-size: 1.em;
+
+	
+	
+     
+}
+#area{
+	
+	   text-align: center;
+        background: #fff;
+        
+        
+}
+
+#banner{
+    background: url("../imagens/banner.jpg");
+    
+    
+}
+
+
+
+.enviar {
+	 background-color: royalblue;
+	 font-size: 18px;
+	 border-radius: 12px;
+}
+
+
+
+.redefinir {
+	background-color: orange;
+	font-size: 18px;
+	border-radius: 12px;
+}
+
+.menu {
+
+
+border: 1px black dotted;
+
+
+
+}
+
+.texto_icone {
+	 text-align: center;
+     font-size: 15px;
+	 height: auto;
+	 width: auto;
+}
+
+
+input {
+	border-radius: 5px;
+}
