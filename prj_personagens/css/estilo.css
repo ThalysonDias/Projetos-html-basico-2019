@@ -1,5 +1,126 @@
 body{
-    background: url(../imagens/naruto.gif);
-    background-size: 100%
+    
+    background: url(../imagens/one-shots-marvel-10898153-081120171421.gif);
+    background-attachment: fixed;
+        
 }
-#raposa
+@font-face{
+    
+font-family: Berlin Sans FB Demi Bold;
+src: url(BerlinSansFBDemiBold.woff);
+}
+
+@font-face{
+    
+font-family: wolfsbane2ital;
+src: url(wolfsbane2ital.woff);
+}
+
+
+@font-face{
+    
+font-family: Gothic13StdRegular;
+src: url(Gothic13StdRegular.woff);
+}
+
+@font-face{
+    
+font-family: Marvel_sLukeCage;
+src: url(Marvel_sLukeCage.woff);
+}
+
+@font-face{
+    
+    font-family: IronFist;
+    src: url(IronFist.woff);
+}
+
+h1{
+    color:#150d0d;
+  
+
+}
+
+h2{
+    font-size: 50px;
+    font-family: Berlin Sans FB Demi Bold;
+}
+
+#regras{
+    width: 890px;
+    background: #fff;
+    border: 1px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px 30px 20px;
+}
+
+#regras1{
+    background: black;
+    color: red;
+    font-size: 52px;
+    padding: 10px;
+    text-align: center;
+    font-family: Berlin Sans FB Demi Bold;
+    
+
+}
+#regras4{
+    background: black;
+    color: red;
+    font-size: 80px;
+    padding: 10px;
+    text-align: center;
+    font-family: wolfsbane2ital;
+    
+
+}
+#regras5{
+    background: black;
+    color: red;
+    font-size: 80px;
+    padding: 10px;
+    text-align: center;
+    font-family: Gothic13StdRegular;
+    
+
+}
+#regras6{
+    background: black;
+    color: red;
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+    font-family: Marvel_sLukeCage;
+
+}
+
+#regras7{
+    background: black;
+    color: red;
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+    font-family: IronFist;
+
+}
+.regras2{
+    color: black;
+    
+}
+.subtitulo{ 
+    border-bottom: 3px solid #333;
+     
+}
+.regras3{
+    color:black;
+    font-size: 27px;
+    
+
+}
+button{
+    background: black;
+    color:red;
+    font-size: 30px;
+    font-family: Berlin Sans FB Demi Bold;
+}
